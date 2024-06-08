@@ -66,3 +66,56 @@ section {
     text-transform: uppercase;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+p {
+    font-weight: bolder;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.exo-2-<uniquifier> {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.accordion {
+    border: 1px solid #ccc;
+    font-family: "EXO 2";
+}
+
+.accordion-title {
+    background-color: #f1f1f1;
+    font-family: "EXO 2";
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    font-size: xx-large;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    text-align: left;
+    word-spacing: normal;
+    font-size: larger;
+    text-align: justify;
+}
+input[type="radio"] {
+display: none;
+}
+
+input[type="radio"]:checked + label + .accordion-content {
+    display: block;
+}
+img {
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "EXO 2";
+}
