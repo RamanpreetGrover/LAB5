@@ -21,8 +21,8 @@ body {
 
 header {
     font-family: "Honk";
-    background-color: #272626;
-    font-size: 300%;
+    background-color: #000000;
+    font-size: 350%;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -60,7 +60,7 @@ section {
 }
 
 .gradient-text {
-    background: linear-gradient(to right, #151515, #ff0000);
+    background: linear-gradient(to right, #151515, #fffefe);
     color: rgb(246, 246, 246);
     padding: 10px 20px;
     border-radius: 5px;
@@ -84,7 +84,7 @@ p {
 }
 
 @keyframes slidein {
-    from {transform: translateY(-100%);}to{transform: translateY(0);}
+    from {transform: translateY(100%);}to{transform: translateY(0);}
 }
 .accordion {
     border: 1px solid #ccc;
@@ -127,7 +127,7 @@ img {
     height: 350px;
 }
 footer {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 10px 0;
