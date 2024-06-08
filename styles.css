@@ -21,8 +21,8 @@ body {
 
 header {
     font-family: "Honk";
-    background-color: #000000;
-    font-size: 250%;
+    background-color: #272626;
+    font-size: 300%;
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -44,7 +44,11 @@ a {
 }
 
 a:hover {
-    background-color: #555;
+    background-color: antiquewhite;
+    transition: ease-out;
+    box-shadow: #f1f1f1;
+    color: #f9f9f9;
+    transform:inherit;
   }
 
 section {
@@ -78,9 +82,14 @@ p {
   font-weight: <weight>;
   font-style: normal;
 }
+
+@keyframes slidein {
+    from {transform: translateY(-100%);}to{transform: translateY(0);}
+}
 .accordion {
     border: 1px solid #ccc;
     font-family: "EXO 2";
+    animation: slidein 3s backwards;
 }
 
 .accordion-title {
@@ -106,6 +115,11 @@ display: none;
 
 input[type="radio"]:checked + label + .accordion-content {
     display: block;
+}
+
+.accordion-title:hover {
+    background-color: #555;
+    color: #0075F2;
 }
 img {
     position: relative;
